@@ -65,7 +65,6 @@ export default async function Home() {
 						preload="metadata"
 					>
 						<source src={item.video_url} type="video/mp4" />
-						<source src={item.video_url} type="video/quicktime" />
 						<track kind="captions" src="" label="English" />
 					</video>
 					<div className="p-2 flex flex-col">
