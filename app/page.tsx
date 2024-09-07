@@ -39,7 +39,7 @@ export default async function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-start py-24 gap-12">
 			<div className="flex flex-col gap-2 text-center">
-				<h1 className="bg-cover bg-top bg-clip-text bg-[url('https://dweb.mypinata.cloud/ipfs/QmQ2bXyUw26Ey4kRth93wX6EVrvrvwWA16nB9MVJKNxajs?img-format=webp')] text-transparent scroll-m-20 lg:text-9xl md:text-8xl text-6xl font-extrabold tracking-tight">
+				<h1 className="bg-cover bg-top bg-clip-text bg-[url('/bg.webp')] text-transparent scroll-m-20 lg:text-9xl md:text-8xl text-6xl font-extrabold tracking-tight">
 					Chattanooga
 				</h1>
 				<h2 className="lg:text-7xl md:text-6xl text-4xl font-extrabold">
