@@ -46,7 +46,7 @@ export default async function Home() {
 					Video Wall
 				</h2>
 				<h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
-					Share your favorite moments from your favorite city, Chattanooga Tn
+					Share your favorite moments from Chattanooga, TN
 				</h4>
 			</div>
 			{error || !userData.user ? <SignInButton /> : <CreateVideoForm />}
