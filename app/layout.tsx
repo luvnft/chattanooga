@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 		icon: "/favicon.ico",
 	},
 	openGraph: {
-		title: "Founder Cloud",
+		title: "Chattanooga Video Wall",
 		description: "Share your favorite Chattanooga moments",
 		url: "https://foundercloud.live",
 		siteName: "Founder Cloud",
