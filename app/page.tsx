@@ -62,9 +62,10 @@ export default async function Home() {
 						autoPlay
 						loop
 						muted
-						preload="metadata"
+						preload="auto"
 					>
 						<source src={item.video_url} type="video/mp4" />
+						<source src={item.video_url} type="video/webm" />
 						<track kind="captions" src="" label="English" />
 					</video>
 					<div className="p-2 flex flex-col">
