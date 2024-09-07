@@ -56,7 +56,6 @@ export default async function Home() {
 					key={item.id}
 				>
 					<video
-						src={item.video_url}
 						className=" h-auto w-full object-cover"
 						playsInline
 						controls
@@ -65,6 +64,7 @@ export default async function Home() {
 						muted
 						preload="metadata"
 					>
+						<source src={item.video_url} type="video/quicktime"/>
 						<track kind="captions" src="" label="English" />
 					</video>
 					<div className="p-2 flex flex-col">
