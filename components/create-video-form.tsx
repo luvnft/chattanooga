@@ -25,6 +25,7 @@ import {
 import { ReloadIcon } from "@radix-ui/react-icons";
 import { createClient } from "@/lib/supabase/client";
 import { pinata } from "@/lib/pinata";
+import { revalidatePath } from "next/cache";
 
 const formSchema = z.object({
 	name: z.string(),

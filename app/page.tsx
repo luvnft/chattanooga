@@ -1,10 +1,9 @@
 import { CreateVideoForm } from "@/components/create-video-form";
 import { createClient } from "@/lib/supabase/server";
 import { Card } from "@/components/ui/card";
-import Link from "next/link";
 import { SignInButton } from "@/components/sign-in-button";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export type Video = {
 	id: number;
