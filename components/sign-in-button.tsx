@@ -9,7 +9,7 @@ export function SignInButton() {
 		await supabase.auth.signInWithOAuth({
 			provider: "github",
 			options: {
-				redirectTo: "https://foundercloud.vercel.app/auth/callback",
+				redirectTo: "https://chattanooga.vercel.app/auth/callback",
 			},
 		});
 	}
